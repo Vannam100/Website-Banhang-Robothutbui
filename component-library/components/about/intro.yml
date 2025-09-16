@@ -1,0 +1,43 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: About Intro
+  description: About Intro
+  icon: 'i-mdi-file-document-multiple'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  background_image: /images/banner-we.png
+  title: <h1>Về chúng tôi </h1>
+  sub_title:
+  button:
+    is_show: false
+    label: Khám phá thêm
+    link: /ve-chung-toi
+    open_new_tab: false
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  background_image:
+    type: image
+    label: Background Image Section
+  title:
+    type: markdown
+    label: Title Section
+  sub_title:
+    type: textarea
+    label: Sub Title Section
+  button.label:
+    type: text
+    label: label Button
+  button.link:
+    type: text
+    label: Link Button

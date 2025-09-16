@@ -1,0 +1,102 @@
+{
+  "service": {
+      "block": {
+          "_block_name": "service/item",
+          "status": true,
+          "background_color": "#FFFFFF",
+          "image": "/images/s1.jpg",
+          "image_alt": "Nails",
+          "title": "NAILS SERVICES",
+          "description_simple": null
+      },
+      "wrapper": "list_service",
+      "page_path": "content/service.yml",
+      "key_reverse": "is_reverse",
+      "reverse_default": true,
+      "product": {
+          "price": {
+              "external_key": "product_price"
+          },
+          "label": {
+              "external_key": "product_name"
+          },
+          "description_simple": {
+              "external_key": "product_description"
+          }
+      },
+      "category": {
+          "title": {
+              "external_key": "product_group_name"
+          },
+          "image": {
+              "external_key": "product_group_avatar"
+          },
+          "description_simple": {
+              "external_key": "product_group_description"
+          }
+      }
+  },
+  "gallery": {
+      "type": "category",
+      "block": {
+          "_block_name": "gallery/home",
+          "status": true,
+          "background_color": "#FFFFFF"
+      },
+      "wrapper": "gallery_items",
+      "page_path": "content/gallery.yml",
+      "category": {
+          "text": {
+              "external_key": "category_title"
+          },
+          "banner_wrapper": {
+              "external_key": "cat_image"
+          },
+          "banner_wrapper_alt": {
+              "external_key": "cat_image_alt"
+          }
+      },
+      "wrapper_item": "items_gallery",
+      "item": {
+          "image": {
+              "external_key": "image"
+          },
+          "image_alt": {
+              "external_key": "image_alt"
+          }
+      }
+  },
+  "banner": {
+      "block": {
+          "_block_name": "section/hero",
+          "status": true
+      },
+      "wrapper": "banner_items",
+      "page_path": "content/index.yml",
+      "items": {
+          "image": {
+              "external_key": "logo_src"
+          },
+          "image_alt": {
+              "external_key": "image_alt"
+          }
+      }
+  },
+  "coupon": {
+      "block": {
+          "_block_name": "coupon/home",
+          "status": true,
+          "background_color": "#FFFFFF"
+      },
+      "wrapper": "data_coupon",
+      "page_path": "content/coupon.yml",
+      "items": {
+          "image": {
+              "external_key": "logo_src"
+          },
+          "image_alt": {
+              "external_key": "image_alt"
+          }
+      }
+  }
+}

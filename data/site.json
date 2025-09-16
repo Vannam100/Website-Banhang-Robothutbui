@@ -1,0 +1,28 @@
+{
+  "en": {
+    "BaseURL": "http://example.org",
+    "favicon_icon": "",
+    "favicon_image": "",
+    "description": "",
+    "twitter_image": "",
+    "twitter_site": "@twitter_site",
+    "image": "",
+    "_inputs": {
+      "description": {
+        "type": "textarea"
+      },
+      "twitter_site": {
+        "type": "twitter"
+      },
+      "favicon_icon": {
+        "type": "image"
+      },
+      "favicon_image": {
+        "type": "image"
+      },
+      "twitter_image": {
+        "type": "image"
+      }
+    }
+  }
+}

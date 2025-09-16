@@ -1,0 +1,43 @@
+{
+  "en": {
+    "logo": "/images/logo.png",
+    "logo_alt": "Logo Alt",
+    "items_header": [
+      {
+        "link": "/",
+        "text": "Trang chủ"
+      },
+      {
+        "link": "/san-pham",
+        "text": "Sản phẩm"
+      },
+      {
+        "link": "/ve-chung-toi",
+        "text": "Về chúng tôi",
+        "submenu": [
+          {
+            "link": "/#",
+            "text": "Sub about 1"
+          },
+          {
+            "link": "/#",
+            "text": "Sub about 2"
+          }
+        ]
+      },
+      {
+        "link": "/",
+        "text": "Tin tức"
+      },
+      {
+        "link": "/lien-he",
+        "text": "Liên hệ"
+      }
+    ],
+    "_inputs": {
+      "logo": {
+        "type": "image"
+      }
+    }
+  }
+}

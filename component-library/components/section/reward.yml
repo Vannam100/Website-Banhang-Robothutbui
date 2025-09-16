@@ -1,0 +1,48 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Section Reward
+  description: Section Reward
+  icon: 'i-mdi-home'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  background_image: /images/end_banner.png
+  title: Vinh danh chất lượng, khẳng định thương hiệu quốc gia.
+  button:
+    is_show: true
+    label: Khám phá thêm
+    link: /ve-chung-toi
+    open_new_tab: false
+  listItem:
+    - image: '/images/reward1.png'
+      image_alt: Reward Alt 1
+   
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  background_image:
+    type: image
+    label: Background Image Section
+  title:
+    type: text
+    label: Title Section
+  button.label:
+    type: text
+    label: label Button
+  button.link:
+    type: text
+    label: Link Button
+  listItem[*].image:
+    type: image
+    label: Image
+  listItem[*].image_alt:
+    type: text
+    label: Alt Image

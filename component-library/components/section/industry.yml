@@ -1,0 +1,32 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Section Industry 
+  description: Section Industry 
+  icon: 'i-mdi-home'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  title: NHÀ MÁY GMP
+  sub_title: CÁC ĐẶC ĐIỂM NỔI BẬT CỦA NHÀ MÁY GMP TRƯỜNG SINH GROUP
+  content: Nhờ vào việc tuân thủ nghiêm ngặt các tiêu chuẩn GMP, nhà máy Trường Sinh Group luôn cam kết cung cấp sản phẩm chất lượng cao, an toàn và hiệu quả, đồng thời đảm bảo đáp ứng mọi yêu cầu của khách hàng và các cơ quan chức năng.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  title:
+    type: markdown
+    label: Title
+  sub_title:
+    type: text
+    label: Sub Title
+  content:
+    type: textarea
+    label: Content

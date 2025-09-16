@@ -1,0 +1,138 @@
+paths:
+  collections: content
+  data: data
+  static: public
+  uploads: public//images
+collections_config:
+  data:
+    path: data/
+    disable_add: true
+    disable_add_folder: true
+  pages:
+    path: content
+    glob:
+      - content/*.yml
+    url: "/[slug]"
+    output: true
+    icon: wysiwyg
+    _enabled_editors:
+      - visual
+    schemas:
+      page:
+        name: New Page
+        path: schemas/page.yml
+
+
+
+  blog:
+    path: content/blog/
+    output: true
+    url: "/blog/[slug]"
+    _enabled_editors:
+      - content
+      - visual
+    schemas:
+      blog_post:
+        name: New Blog Post
+        path: schemas/post.yml
+        hide_extra_inputs: false
+        remove_extra_inputs: false
+
+
+_inputs:
+  _path:
+    type: text
+    label: Page path
+    description:
+  title:
+    type: text
+    label: Page title
+    description:
+  description:
+    type: markdown
+    label: Page description
+    description:
+  desc:
+    type: textarea
+    label: Description
+    description:
+  description_simple:
+    type: markdown_simple
+    label: Description simple
+    description:
+  layout:
+    type: text
+    label: Page layout
+    description:
+  thumbImg.image:
+    type: image
+    label: Thumbnail image
+    description:
+  seo.title:
+    type: text
+    label: Seo title
+    description:
+  seo.description:
+    type: textarea
+    label: Seo description
+    description:
+  seo.url:
+    type: text
+    label: Seo url
+    description:
+  seo.image:
+    type: image
+    label: Seo image
+    description:
+  seo.no_index:
+    type: checkbox
+    label: Seo no index
+    description:
+  content_blocks:
+    label: Content blocks
+    description:
+  image:
+    type: image
+    label: Image
+  icon:
+    type: image
+    label: Icon
+  img:
+    type: image
+    label: Image
+  open_new_tab:
+    type: toggle
+    label: Open New Tab
+  seo.featured_image:
+    type: image
+    label: Seo image
+    description:
+  background_color:
+    type: color
+    label: Background Color
+  status:
+    type: toggle
+    label: Active Section
+  background_image:
+    type: image
+    label: Background Image
+  items_per_page:
+    type: number
+    label: Number Of Posts Per Page
+    description: The number of posts per page must be greater than 1. If less than 1, the default will be 6
+  related_post:
+    type: toggle
+    label: Active Related Post
+    description: This option will show/hide related posts by tag
+  publish: 
+    label: Publish Blog
+    type: toggle
+  date: 
+    label: Publish Day
+    type: date
+  created_at:
+    label: Publish Day
+    type: hidden
+  is_show:
+    type: toggle
+    label: Show/Hide Button

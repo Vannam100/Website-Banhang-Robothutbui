@@ -1,0 +1,88 @@
+{
+  "en": {
+    "logo": "/images/Logo-new.PNG",
+    "logo_image_alt": "Trường Sinh",
+    "logo_link": "/#",
+    "background_color": "#0b0b0b",
+    "button_scroll_top": {
+      "is_show": true,
+      "background_color": "#2a83e9"
+    },
+    "button_call": {
+      "text": "0888240888",
+      "background_color": "#2a83e9"
+    },
+    "take_care": {
+      "title": "hỗ trợ khách hàng",
+      "list_text": [
+        {
+          "text": "Quy định pháp lý",
+          "link": "/"
+        },
+        {
+          "text": "Chính sách bảo mật thông tin",
+          "link": "/"
+        },
+        {
+          "text": "Trung tâm dịch vụ khách hàng",
+          "link": "/"
+        },
+        {
+          "text": "Hướng dẫn đặt hàng",
+          "link": "/"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "list_text": [
+        {
+          "title": "Địa chỉ",
+          "text": "60/9H Tiền Lân 15, Bà Điểm, Hóc Môn"
+        },
+        {
+          "text": "nguyenvannam9a11@gmail.com",
+          "title": "Email",
+          "type": "email"
+        },
+        {
+          "text": "0972 129 712",
+          "title": "Điện thoại",
+          "type": "telephone"
+        }
+      ]
+    },
+    "setting": {
+      "title": "Theo dõi",
+      "text": "Follow Facebook",
+      "list_image": [
+        "/images/icon-facebook.png"
+      ]
+    },
+    "text_coppyright": "Copyright © 2025 SMARTHOME BÀ ĐIỂM HÓC MÔN",
+    "email": "Email: <a href='mailto:nguyenvannam9a11@gmail.com'>nguyenvannam9a11@gmail.com</a>",
+    "_inputs": {
+      "logo": {
+        "type": "image"
+      },
+      "text_coppyright": {
+        "type": "markdown_simple"
+      },
+      "background_color": {
+        "type": "color"
+      },
+      "button_scroll_top.is_show": {
+        "type": "toggle",
+        "label": "Click for On/Off button scroll to top"
+      },
+      "button_scroll_top.background_color": {
+        "type": "color",
+        "label": "Change background color of button scroll to top"
+      },
+      "button_call.background_color": {
+        "type": "color",
+        "label": "Change background color of button scroll to top"
+      }
+    }
+  }
+}

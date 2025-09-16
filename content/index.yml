@@ -1,0 +1,70 @@
+title: SMARTHOME HCM
+seo:
+  page_description: 
+  canonical_url:
+  featured_image:
+  featured_image_alt:
+  author_twitter_handle:
+  open_graph_type:
+  no_index: false
+content_blocks:
+  - _block_name: section/hero
+    status: true
+    background_image: /images/banner-we.png
+    title: Dreame X50 Ultra
+    sub_title: Chiến binh vượt địa hình
+    button:
+      is_show: true
+      label: Khám phá thêm
+      link: /san-pham
+      open_new_tab: false
+
+  - _block_name: section/category
+    status: true
+    background_color: "#FFFFFF"
+    tenant_id: test1
+
+  - _block_name: section/product
+    status: true
+    background_color: "#FFFFFF"
+    title: <h2>SẢN PHẨM TIÊU BIỂU</h2>
+    arrow: /images/arrow.png
+    arrow_alt: Arrow Alt
+    button:
+      is_show: true
+      label: Xem thêm
+      link: /san-pham
+      icon: /images/arrow-right.png
+      icon_alt: Icon Arrow
+      open_new_tab: false
+
+  - _block_name: section/description
+    status: true
+    background_color: "#FFFFFF"
+    items:
+      - image: 
+        image_alt: Award 1
+        title: 'CUNG CẤP DỊCH VỤ'
+        description: 'Chuyên cung cấp các thiết bị điện tử gia dụng thông minh.'
+      - image:
+        image_alt: Award 2
+        title: 'PHỤC VỤ CHUYÊN NGHIỆP'
+        description: 'Luôn tư vấn chuyên nghiệp, nhiệt tình hỗ trợ khách hàng tận tâm và hiệu quả.'
+      - image: 
+        image_alt: Award 3
+        title: 'CHẤT LƯỢNG, GIÁ THÀNH'
+        description: 'Đảm bảo chất lượng và giá cạnh tranh nhất cho khách hàng'
+      - image:
+        image_alt: Award 4
+        title: 'ĐỊA CHỈ'
+        description: '60/9H Tiền Lân 15, Bà Điểm, Hóc Môn, Thành phố Hồ Chí Minh.'
+
+  - _block_name: section/media
+    status: false
+    background_color: "#FFFFFF"
+    title: <h2>Tin tức</h2>
+    button:
+      is_show: true
+      link: /blog
+      label: Khám phá thêm
+      open_new_tab: false

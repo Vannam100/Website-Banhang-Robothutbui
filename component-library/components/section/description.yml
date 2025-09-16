@@ -1,0 +1,46 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Section Description
+  description: Section Description
+  icon: 'i-mdi-home'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  background_color: "#FFFFFF"
+  custom_item: 
+    background_color_icon: "#dbeafe"
+  items:
+    - image: '/images/award1.png'
+      image_alt: Award 1
+      title: 'VỊ THẾ CỦA CÔNG TY'
+      description: 'Chuyên gia sản xuất các sản phẩm có nguồn gốc dược liệu tốt cho sức khỏe.'
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  background_color:
+    type: color
+    label: Background Color Section
+  custom_item.background_color_icon:
+    type: color
+    label: Background Color Icon
+  items[*].image:
+    type: image
+    label: Image Item
+  items[*].image_alt:
+    type: text
+    label: Alt Image Item
+  items[*].title:
+    type: text
+    label: Title Item
+  items[*].description:
+    type: textarea
+    label: Description Item

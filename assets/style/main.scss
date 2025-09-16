@@ -1,0 +1,74 @@
+@use 'variables';
+@use '_ckecontent';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  line-height: 24px;
+  list-style: revert;
+}
+.radio-custom{
+  .text-primary-500 {
+    color: var(--color-main) !important;
+  }
+  input[type='radio'] { 
+    width: 32px !important;
+    height: 32px !important;
+    cursor: pointer;
+  }
+  .input-radio-custom{
+    fieldset{
+      .relative.flex.items-start{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.select__cus{
+  select {
+    color: var(--color-main);
+    height: 40px;
+  }
+}
+@media (max-width: 768px) { 
+  body {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.ckeditor-custom
+{
+  ul, ol, menu { 
+    list-style: revert;
+    padding: revert;
+    margin: revert;
+  } 
+  b,strong{
+    font-weight: bold;
+  }
+}
+
+
+.container {
+  max-width: 1620px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.custom-scroll{
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+  }
+}

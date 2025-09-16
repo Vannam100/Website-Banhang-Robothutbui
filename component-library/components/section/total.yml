@@ -1,0 +1,42 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Section Total
+  description: Section Total
+  icon: 'i-mdi-home'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  list_item:
+    - image: /images/total1.png
+      number: 2000
+      content: Giờ làm
+    - image: /images/total2.png
+      number: 20.000
+      content: Khách hàng
+    - image: /images/total3.png
+      number: 95%
+      content: Khách hài lòng
+    - image: /images/total4.png
+      number: 500
+      content: Nhân viên
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  list_item[*].image:
+    type: image
+    label: Image
+  list_item[*].number:
+    type: markdown
+    label: number
+  list_item[*].content:
+    type: markdown
+    label: content

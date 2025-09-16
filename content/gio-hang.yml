@@ -1,0 +1,14 @@
+title: Giỏ hàng
+seo:
+  page_description:
+  canonical_url:
+  featured_image:
+  featured_image_alt:
+  author_twitter_handle:
+  open_graph_type:
+  no_index: false
+content_blocks:
+  - _block_name: cart/hero
+    status: true
+    background_color: "#FFFFFF"
+    title: <h1>Giỏ hàng</h1>
