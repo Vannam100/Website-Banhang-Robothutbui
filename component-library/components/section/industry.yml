@@ -9,9 +9,9 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   status: true
-  title: NHÀ MÁY GMP
-  sub_title: CÁC ĐẶC ĐIỂM NỔI BẬT CỦA NHÀ MÁY GMP TRƯỜNG SINH GROUP
-  content: Nhờ vào việc tuân thủ nghiêm ngặt các tiêu chuẩn GMP, nhà máy Trường Sinh Group luôn cam kết cung cấp sản phẩm chất lượng cao, an toàn và hiệu quả, đồng thời đảm bảo đáp ứng mọi yêu cầu của khách hàng và các cơ quan chức năng.
+  title: 
+  sub_title: 
+  content: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

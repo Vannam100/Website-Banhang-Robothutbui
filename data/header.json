@@ -14,19 +14,10 @@
       {
         "link": "/ve-chung-toi",
         "text": "Về chúng tôi",
-        "submenu": [
-          {
-            "link": "/#",
-            "text": "Sub about 1"
-          },
-          {
-            "link": "/#",
-            "text": "Sub about 2"
-          }
-        ]
+        "submenu": []
       },
       {
-        "link": "/",
+        "link": "/blog",
         "text": "Tin tức"
       },
       {

@@ -13,8 +13,7 @@ seo:
 content_blocks:
   - _block_name: section/intro
     status: true
-    background_image: https://techzhome.vn/media/news/0808_robot-hut-bui-bia.jpg
-    title: Sản phẩm của chúng tôi
+    background_image: /images/banner.jpg
     sub_title:
     button:
       is_show: false

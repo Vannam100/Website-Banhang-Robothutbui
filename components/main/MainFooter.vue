@@ -5,10 +5,10 @@
         <div class="grid lg:grid-cols-[200px_3fr] grid-cols-1 lg:gap-8 gap-4">
           <div class="text-center">
             <NuxtLink to="/" class="inline-block">
-              <span class="text-[60px] font-bold text-center">
+              <!-- <span class="text-[60px] font-bold text-center">
                 LOGO
-              </span>
-              <!-- <img :src="footerData.logo" :alt="footerData.logo_image_alt" class="sm:max-w-[100px] max-w-[70px] object-cover lg:mr-[-20px] sm:mr-[10px]"/> -->
+              </span> -->
+              <img :src="footerData.logo" :alt="footerData.logo_image_alt" class="sm:max-w-[250px] object-cover lg:mr-[-20px] sm:mr-[10px]"/>
             </NuxtLink>
           </div>
           <div class="grid md:grid-cols-3 grid-cols-1 sm:gap-[30px] gap-4">

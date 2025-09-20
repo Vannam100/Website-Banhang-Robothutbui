@@ -10,10 +10,9 @@ spec:
 blueprint:
   status: true
   list_item:
-    - image: /images/service1.png
-      title: Sản Xuất chai lọ
-      content: Nhà máy gia công chai nhựa của Tập Đoàn phát triển khoa học Quốc Tế Trường Sinh là một trong những đơn vị chuyên sản xuất can chai nhựa tại Tây Nguyên. Chúng tôi cung cấp đa dạng các sản phẩm, mẫu mã phong phú đáp ứng nhu cầu sử dụng ngày càng cao của quý khách hàng.
-      button:
+    - image:
+      title:
+      content: 
         link: /
         text: Xem thêm
 

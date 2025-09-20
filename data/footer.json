@@ -1,7 +1,7 @@
 {
   "en": {
-    "logo": "/images/Logo-new.PNG",
-    "logo_image_alt": "Trường Sinh",
+    "logo": "/images/logo.png",
+    "logo_image_alt": "SMARTHOME",
     "logo_link": "/#",
     "background_color": "#0b0b0b",
     "button_scroll_top": {
@@ -9,7 +9,7 @@
       "background_color": "#2a83e9"
     },
     "button_call": {
-      "text": "0888240888",
+      "text": "0972129712",
       "background_color": "#2a83e9"
     },
     "take_care": {

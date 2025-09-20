@@ -28,10 +28,10 @@
         <p>Khuyến mãi</p>
         <p>- {{ convertVND(0) }}</p>
       </div> -->
-      <div class="text-[14px] italic font-light leading-2 text-[#A6A6A6] flex justify-between items-center pb-[20px]">
+      <!-- <div class="text-[14px] italic font-light leading-2 text-[#A6A6A6] flex justify-between items-center pb-[20px]">
         <p>Thuế giá trị gia tăng ̣(8%)</p>
         <p>{{ convertVND(taxPrice) }}</p>
-      </div>
+      </div> -->
       <div class="sm:text-[22px] font-bold uppercase py-[20px] text-md sm:leading-[33px] leading-4 text-[#363636] flex justify-between items-center border-t border-[#C8C8C8]">
         <p>Tổng cộng</p>
         <p>{{ convertVND(totalPrice + taxPrice) }}</p>

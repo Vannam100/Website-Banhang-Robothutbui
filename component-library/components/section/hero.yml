@@ -10,8 +10,8 @@ spec:
 blueprint:
   status: true
   background_image: /images/banner-we.png
-  title: CHUYÊN SẢN PHẨM NGUỒN GỐC TỪ THẢO DƯỢC
-  sub_title: Truong Sinh Group tiên phong nghiên cứu và sản xuất thành công các sản phẩm thảo dược chất lượng quốc tế, bảo vệ sức khỏe và môi trường, đáp ứng xu hướng tiêu dùng hiện đại.
+  title:
+  sub_title: 
   button:
     is_show: true
     label: Khám phá thêm

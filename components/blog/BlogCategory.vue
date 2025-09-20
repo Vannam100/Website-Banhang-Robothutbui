@@ -2,16 +2,10 @@
   <div v-if="Category?.length > 0"  class="flex flex-wrap lg:gap-3 gap-1 md:my-5 my-3">
     <NuxtLink 
       class="md:p-2.5 p-2 rounded-xl inline-block" 
-      :class="route.path === '/blog' ? 'bg-[#FFC8C8] text-black' : 'bg-secondary text-main' " 
+      :class="route.path === '/blog' ? 'bg-main text-white' : 'bg-secondary text-main' " 
       to="/blog"
     >
       Tin tức
-    </NuxtLink>
-    <NuxtLink 
-      class="md:p-2.5 p-2 rounded-xl inline-block bg-secondary text-main" 
-      to="/tuyen-dung"
-    >
-      Tuyển dụng
     </NuxtLink>
     <template v-for="(item, index) in Category" :key="index">
       <NuxtLink 

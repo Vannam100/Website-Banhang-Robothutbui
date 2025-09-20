@@ -13,7 +13,7 @@
           <img
             :src="headerData.logo"
             :alt="headerData.logo_alt"
-            class="w-full object-contain object-center h-auto lg:max-w-[200px] max-w-[150px]"
+            class="w-full object-contain object-center h-auto lg:max-w-[300px] max-w-[190px]"
           />
           <!-- <span class="flex flex-col gap-2 justify-center items-center text-white text-[30px] font-bold">
             <span>ROBOTHUIBUI</span>
