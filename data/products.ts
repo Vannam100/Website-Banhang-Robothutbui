@@ -26,7 +26,7 @@ export const products = [
           },
           {
             value: 'Đen',
-            slug: 'đen',
+            slug: 'den',
             additional_data: ''
           }
         ]
@@ -271,5 +271,243 @@ export const products = [
         unit_price: 175000
       },
     ]
-  }
+  },
+  {
+    additional_data: [
+      {
+        name : 'Nước lau sàn Roborock',
+        value: `<p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Hướng Dẫn Sử Dụng</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Tỷ lệ pha loãng: 1:200.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Đổ nước sạch vào ngăn chứa nước.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Thêm dung dịch vào theo tỷ lệ 1:200.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Lắc nhẹ trước khi sử dụng.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Gợi ý pha chế: 1 nắp dung dịch (khoảng 20ml) pha với 4L nước.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Nếu thiết bị có khoang chứa dung dịch, chỉ cần đổ trực tiếp, máy sẽ tự điều phối tỷ lệ phù hợp.</p>`
+      }
+    ],
+    category: {
+      id: 'cate4',
+      name: 'Phụ kiện',
+      slug: 'phu-kien',
+    },
+    id: 6,
+    name : 'Nước lau sàn Roborock',
+    image: '["/images/phu-kien-2.webp"]',
+    product_options: [
+      {
+        key: "phanloai",
+        name: "Phân Loại",
+        values: []
+      }
+    ],
+    short_description: '',
+    slug: 'nuoc-lau-san-roborock',
+    tags: [],
+    unit_price: 80000,
+    variants: [
+      {
+        extra_fields: null,
+        id: 61,
+        images: ["/images/phu-kien-2.webp"],
+        meta_field: [],
+        name: "Nước lau sàn Roborock",
+        slug: "nuoc-lau-san-roborock",
+        unit_price: 80000
+      },
+    ]
+  },
+  {
+    additional_data: [
+      {
+        name : 'Phụ Kiện Khăn Lau Cho Robot Hút Bụi - Giẻ Lau Robot Hút Bụi Ecovacs, Xiaomi, Dreame , Roborock',
+        value: `<p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Giẻ lau xoay dùng được cho các loại robot lau xoay của Ecovacs, Roborock, Xiaomi, Dreame</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Giẻ đẹp, dày dạn, có thể giặt tay.</p>`
+      }
+    ],
+    category: {
+      id: 'cate4',
+      name: 'Phụ kiện',
+      slug: 'phu-kien',
+    },
+    id: 7,
+    name : 'Phụ Kiện Khăn Lau Cho Robot Hút Bụi - Giẻ Lau Robot Hút Bụi Ecovacs, Xiaomi, Dreame , Roborock',
+    image: '["/images/phu-kien-3.webp"]',
+    product_options: [
+      {
+        key: "phanloai",
+        name: "Phân Loại",
+        values: [
+          {
+            value: 'Cái',
+            slug: 'cai',
+            additional_data: ''
+          },
+          {
+            value: 'Cặp',
+            slug: 'cap',
+            additional_data: ''
+          }
+        ]
+      }
+    ],
+    short_description: '',
+    slug: 'khan-lau-san-robot',
+    tags: [],
+    unit_price: 15000,
+    variants: [
+      {
+        extra_fields: null,
+        id: 71,
+        images: ["/images/phu-kien-3.webp"],
+        meta_field: [
+          {
+            key: "phanloai", 
+            name: "Phân Loại", 
+            value: "Cái", 
+            slug: "cai", 
+            additional_data: ""
+          }
+        ],
+        name: "Phụ Kiện Khăn Lau Cho Robot Hút Bụi - Giẻ Lau Robot Hút Bụi Ecovacs, Xiaomi, Dreame , Roborock",
+        slug: "khan-lau-san-robot-cai",
+        unit_price: 15000
+      },
+      {
+        extra_fields: null,
+        id: 72,
+        images: ["/images/phu-kien-3.webp"],
+        meta_field: [
+          {
+            key: "phanloai", 
+            name: "Phân Loại", 
+            value: "Cặp", 
+            slug: "cap", 
+            additional_data: ""
+          }
+        ],
+        name: "Phụ Kiện Khăn Lau Cho Robot Hút Bụi - Giẻ Lau Robot Hút Bụi Ecovacs, Xiaomi, Dreame , Roborock",
+        slug: "khan-lau-san-robot-cap",
+        unit_price: 29000
+      },
+    ]
+  },
+  {
+    additional_data: [
+      {
+        name : 'Ecovacs Deebot Mini',
+        value: `<p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Thiết kế nhỏ gọn và mạnh mẽ: Dễ dàng di chuyển dưới gầm, làm sạch hiệu quả.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Lực hút mạnh + lau sâu: 9 000 Pa kết hợp lau áp lực cao cho sàn sạch bóng.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Tự động hóa hoàn chỉnh: Trạm OMNI thu gom bụi, giặt và sấy giẻ; chống ẩm mốc.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Hoạt động im lặng: Chỉ 55 dB khi làm việc, không gây phiền phức.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">&nbsp;</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Cảm biến hiện đại &amp; điều hướng thông minh: TrueMapping giúp tối ưu quá trình dọn dẹp</p>`
+      }
+    ],
+    category: {
+      id: 'cate1',
+      name: 'Robot hút bụi (New)',
+      slug: 'robot-hut-bui-new',
+    },
+    id: 8,
+    name : 'Ecovacs Deebot Mini',
+    image: ["/images/robot-new-3.webp"],
+    product_options: [
+      {
+        key: "phanloai",
+        name: "Phân Loại",
+        values: [
+          {
+            value: 'Trắng',
+            slug: 'trang',
+            additional_data: ''
+          }
+        ]
+      }
+    ],
+    short_description: '',
+    slug: 'ecovacs-deebot-mini-new',
+    tags: [],
+    unit_price: 7980000,
+    variants: [
+      {
+        extra_fields: null,
+        id: 81,
+        images: ["/images/robot-new-3.webp"],
+        meta_field: [
+          {
+            key: "phanloai", 
+            name: "Phân Loại", 
+            value: "Trắng", 
+            slug: "trang", 
+            additional_data: ""
+          }
+        ],
+        name: "Ecovacs Deebot Mini",
+        slug: "ecovacs-deebot-mini-new-trang",
+        unit_price: 7980000
+      }
+    ]
+  },
+  {
+    additional_data: [
+      {
+        name : '[CHÍNH HÃNG] Máy hút bụi lau nhà cẩm tay Roborock F25 ACE – Hút + Lau 2 Trong 1',
+        value: `<p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">- Đặc điểm nổi bật:</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Roborock F25 ACE sở hữu lực hút cực mạnh 20.000 Pa, tích hợp với bánh xe AI trợ lực hai chiều và xoay linh hoạt lên đến 70°. Máy dễ dàng điều khiển qua ứng dụng và cảm biến DirTect thông minh.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">- Chức năng của máy:</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+Lực hút mạnh mẽ 20.000 Pa, phù hợp cho việc làm sạch chuyên sâu trên nhiều bề mặt</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Phiên bản F25 ACE có dung tích bồn chứa nước 720ml, giúp thiết kế nhỏ gọn và nhẹ nhàng hơn</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Tính năng điều khiển từ xa qua ứng dụng và cảm biến DirTect giúp F25 ACE tự động điều chỉnh lực hút</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Đầu bàn chải xoay 70° dễ dàng loại bỏ các vết bẩn cứng đầu</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Tính năng giặt giẻ bằng nước nóng 90°C giúp loại bỏ vi khuẩn mà không cần tự giặt</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Bình chứa nước sạch 870ml và hệ thống phun 32 lỗ tối ưu hóa hiệu suất làm sạch và tiện dụng</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Đáp ứng mọi nhu cầu vệ sinh với nhiều đầu làm sạch đa dạng</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Cảm biến thông minh DirTect tự động điều chỉnh công suất và lưu lượng nước khi làm sạch</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">- Thông số kỹ thuật:</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Thời gian hoạt động: 40 phút</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Dung tích ngăn chứa nước</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Lực hút: 20.000 Pa</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Dung lượng Pin: 4000 mAh</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Tổng công suất: 240W</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Khối lượng máy: 4.7kg</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Khối lượng máy kèm trạm sạc: 6.3kg</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Kích thước máy: 262 x 242 x 1100mm</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">Kích thước máy kèm trạm sạc: 332 x 305 x 728mm</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">- Chính sách Bảo Hành</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Sản phẩm chính hãng, bảo hành 24 tháng.</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Sản phẩm bảo hành chính hãng tại các trung tâm bảo hành của Roborock tại Việt Nam</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Hỗ trợ đổi mới nếu sản phẩm có lỗi trong 15 ngày đầu sử dụng</p><p class="QN2lPu" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.8);font-family:SHPBurmese, SHPKhmer, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">+ Hỗ trợ lắp đặt tại nhà nếu khách hàng ở khu vực Thành Phố Hồ Chí Minh</p>`
+      }
+    ],
+    category: {
+      id: 'cate3',
+      name: 'Robot hút bụi cầm tay',
+      slug: 'robot-hut-bui-cam-tay',
+    },
+    id: 9,
+    name : '[CHÍNH HÃNG] Máy hút bụi lau nhà cẩm tay Roborock F25 ACE – Hút + Lau 2 Trong 1',
+    image: ["/images/robot-cam-tay-1.webp"],
+    product_options: [
+      {
+        key: "phanloai",
+        name: "Phân Loại",
+        values: [
+          {
+            value: 'S7 Steam',
+            slug: 's7-steam',
+            additional_data: ''
+          },
+          {
+            value: 'S7 Switch',
+            slug: 's7-switch',
+            additional_data: ''
+          }
+        ]
+      }
+    ],
+    short_description: '',
+    slug: 'may-hut-bui-lau-nha-cam-tay-roborock-f25-ace',
+    tags: [],
+    unit_price: 11099000,
+    variants: [
+      {
+        extra_fields: null,
+        id: 91,
+        images: ["/images/robot-cam-tay-1.webp"],
+        meta_field: [
+          {
+            key: "phanloai", 
+            name: "Phân Loại", 
+            value: "S7 Steam", 
+            slug: "s7-steam", 
+            additional_data: ""
+          }
+        ],
+        name: "[CHÍNH HÃNG] Máy hút bụi lau nhà cẩm tay Roborock F25 ACE – Hút + Lau 2 Trong 1 S7 Steam",
+        slug: "may-hut-bui-lau-nha-cam-tay-roborock-f25-ace-s7-steam",
+        unit_price: 11099000
+      },
+      {
+        extra_fields: null,
+        id: 92,
+        images: ["/images/robot-cam-tay-1.webp"],
+        meta_field: [
+          {
+            key: "phanloai", 
+            name: "Phân Loại", 
+            value: "S7 Switch", 
+            slug: "s7-switch", 
+            additional_data: ""
+          }
+        ],
+        name: "[CHÍNH HÃNG] Máy hút bụi lau nhà cẩm tay Roborock F25 ACE – Hút + Lau 2 Trong 1 S7 Switch",
+        slug: "may-hut-bui-lau-nha-cam-tay-roborock-f25-ace-s7-switch",
+        unit_price: 11790000
+      }
+    ]
+  },
 ]
