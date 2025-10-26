@@ -79,8 +79,11 @@ content_blocks:
     status: true
     background_color: '#FFFFFF'
     background_image:
-    sort: 'Default'
-    icon: /images/Facebook.png
+    layout_list: 3
+    button:
+      is_show: true
+      text: Read more
+      open_new_tab: false
     list_item: 
       - image: /images/photo1.jpg
         image_alt: alt image
