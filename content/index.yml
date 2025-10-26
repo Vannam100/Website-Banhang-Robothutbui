@@ -8,16 +8,22 @@ seo:
   open_graph_type:
   no_index: false
 content_blocks:
+
   - _block_name: section/hero
     status: true
-    background_image: /images/banner-we.png
-    title: Dreame X50 Ultra
-    sub_title: Chiến binh vượt địa hình
-    button:
+    button_menu:
       is_show: true
-      label: Khám phá thêm
-      link: /san-pham
+      text: Xem thêm
+      url: /danh-sach-san-pham
       open_new_tab: false
+    banner_slides:
+      - image: images/banner-we.png
+        image_alt: Alt Banner 1
+      - image: /images/banner4.jpg
+        image_alt: Alt Banner 3
+      - image: /images/banner2.webp
+        image_alt: Alt Banner 2
+
 
   - _block_name: section/category
     status: true
@@ -68,3 +74,23 @@ content_blocks:
       link: /blog
       label: Khám phá thêm
       open_new_tab: false
+
+  - _block_name: section/photo
+    status: true
+    background_color: '#FFFFFF'
+    background_image:
+    sort: 'Default'
+    icon: /images/Facebook.png
+    list_item: 
+      - image: /images/photo1.jpg
+        image_alt: alt image
+      - image: /images/photo2.jpg
+        image_alt: alt image
+      - image: /images/photo3.jpg
+        image_alt: alt image
+      - image: /images/photo4.png
+        image_alt: alt image
+      - image: /images/photo5.png
+        image_alt: alt image
+      - image: /images/photo6.jpg
+        image_alt: alt image
