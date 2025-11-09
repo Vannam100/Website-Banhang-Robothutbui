@@ -7,7 +7,7 @@
     :style="{ backgroundColor: block.background_color }"
   >
     <div class="container">
-      <div class="title-main text-center sm:mb-[40px] mb-6" v-html="block.title" />
+      <div class="text-center text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mb-6" v-html="block.title" />
       <!-- <div v-show="isLoading" class="flex justify-center items-center">
         <div class="loader" />
       </div>       -->

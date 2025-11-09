@@ -1,0 +1,47 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Contact Hero
+  description: Contact Hero
+  icon: 'cottage'
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  status: true
+  background_color: "#ffffff"
+  sub_title: "SMARTHOME HCM"
+  title: "Liên hệ với chúng tôi"
+  contact_cards:
+    - content: "Email</br><a href='mailto:nguyenvannam9a11@gmail.com'>nguyenvannam9a11@gmail.com</a>"
+      image: /images/mail.svg
+      image_alt: Email
+    - content: "Địa chỉ</br>60/9H Tiền Lân 15, Bà Điểm, Hóc Môn, Thành phố Hồ Chí Minh"
+      image: /images/location.svg
+      image_alt: Address
+    - content: "Số điện thoại</br><a href='tel:0972129712'>0972 129 712</a>"
+      image: /images/phone.svg
+      image_alt: Phone
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  status:
+    type: toggle
+    label: Active Section
+  background_color:
+    type: color
+    label: Background Color
+  title:
+    label: Title Section
+    type: text
+  sub_title:
+    label: Sub Title Section
+    type: text
+  contact_cards[*].content:
+    type: markdown
+    label: Content
+  contact_cards[*].image:
+    type: image
+    label: Image

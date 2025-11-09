@@ -21,3 +21,19 @@ content_blocks:
       label: Xem thêm
       link: /ve-chung-toi
       open_new_tab: false
+
+  - _block_name: section/contact
+    status: true
+    background_color: "#ffffff"
+    sub_title: "SMARTHOME HCM"
+    title: "Liên hệ với chúng tôi"
+    contact_cards:
+      - content: "Email</br><a href='mailto:nguyenvannam9a11@gmail.com'>nguyenvannam9a11@gmail.com</a>"
+        image: /images/mail.svg
+        image_alt: Email
+      - content: "Địa chỉ</br>60/9H Tiền Lân 15, Bà Điểm, Hóc Môn, Thành phố Hồ Chí Minh"
+        image: /images/location.svg
+        image_alt: Address
+      - content: "Số điện thoại</br><a href='tel:0972129712'>0972 129 712</a>"
+        image: /images/phone.svg
+        image_alt: Phone

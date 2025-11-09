@@ -117,7 +117,7 @@
             </NuxtLink>
           </div>
 
-            <ul class="list-unstyled list-inline ct-topbar__list lg:block hidden pl-2">
+            <!-- <ul class="list-unstyled list-inline ct-topbar__list lg:block hidden pl-2">
               <li class="ct-language">
                 <div class="w-8 h-8 flex flex-col justify-center items-center " >
                   <img :src="currentLangImg" alt="Current Language" />
@@ -149,10 +149,10 @@
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> -->
           <!-- Tạo phần tử cho Google Translate -->
-          <div id="google_translate_element"></div>
-          <div id="google_translate_element_mobile"></div>
+          <!-- <div id="google_translate_element"></div>
+          <div id="google_translate_element_mobile"></div> -->
 
         </div>
 
@@ -287,7 +287,7 @@
         </li>
       </ul>
     </li>
-    <ul class="list-unstyled list-inline ct-topbar__list lg:hidden p-4 flex flex-col justify-end items-end">
+    <!-- <ul class="list-unstyled list-inline ct-topbar__list lg:hidden p-4 flex flex-col justify-end items-end">
       <li class="ct-language">
         <div class="w-10 h-6 flex flex-col justify-center items-center " >
           <img :src="currentLangImg" alt="Current Language" class=" w-full h-full object-cover" />
@@ -319,7 +319,7 @@
           </li>
         </ul>
       </li>
-    </ul>
+    </ul> -->
   </ul>
 </template>
 
@@ -939,7 +939,7 @@ onMounted(() => {
     padding: 5px 8px;
     .header__menu-item {
       .active-menu-item {
-        color: var(--color-white) !important;      }
+        color: #000 !important;      }
       .header__menu-item-link {
         color: var(--color-main);
         transition: all 0.2s ease-in-out;

@@ -21,9 +21,6 @@ content_blocks:
         image_alt: Alt Banner 1
       - image: /images/banner4.jpg
         image_alt: Alt Banner 3
-      - image: /images/banner2.webp
-        image_alt: Alt Banner 2
-
 
   - _block_name: section/category
     status: true
@@ -33,7 +30,7 @@ content_blocks:
   - _block_name: section/product
     status: true
     background_color: "#FFFFFF"
-    title: <h2>SẢN PHẨM TIÊU BIỂU</h2>
+    title: <h2>Sản Phẩm Tiêu Biểu</h2>
     arrow: /images/arrow.png
     arrow_alt: Arrow Alt
     button:
@@ -43,6 +40,31 @@ content_blocks:
       icon: /images/arrow-right.png
       icon_alt: Icon Arrow
       open_new_tab: false
+
+  - _block_name: section/blog
+    status: true
+    background_color: "#ffffff"
+    title: Sản Phẩm Hot
+    sub_title: SMARTHOME HCM
+    url: /blog
+    open_new_tab: false
+    posts:
+      - id: 1
+        image: /images/photo4.png
+        title: Roborock Q Revo 5V1
+        category: ROBOT HÚT BỤI
+      - id: 2
+        image: /images/photo5.png
+        title: Ecovacs X1 Omini
+        category: ROBOT HÚT BỤI
+      - id: 3
+        image: /images/photo3.jpg
+        title: Roborock Qrevo Curv 2 Flow
+        category: ROBOT HÚT BỤI
+      - id: 4
+        image: /images/photo2.jpg
+        title: Robot Hút Bụi Cầm Tay
+        category: ROBOT HÚT BỤI CẦM TAY
 
   - _block_name: section/description
     status: true
@@ -64,16 +86,6 @@ content_blocks:
         image_alt: Award 4
         title: 'ĐỊA CHỈ'
         description: '60/9H Tiền Lân 15, Bà Điểm, Hóc Môn, Thành phố Hồ Chí Minh.'
-
-  - _block_name: section/media
-    status: false
-    background_color: "#FFFFFF"
-    title: <h2>Tin tức</h2>
-    button:
-      is_show: true
-      link: /blog
-      label: Khám phá thêm
-      open_new_tab: false
 
   - _block_name: section/photo
     status: true

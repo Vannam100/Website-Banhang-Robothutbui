@@ -9,7 +9,7 @@
         <h2
           v-show="products.filter(p => p.category.slug === item.slug).length > 0"
           v-html="item.name"
-          class="title-main text-main900 !text-center"
+          class="text-center text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mb-6"
         ></h2>
         <div
           v-show="!products.some(p => p.category.slug === item.slug) && route?.query?.category"

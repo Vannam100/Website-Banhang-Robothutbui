@@ -9,7 +9,7 @@
         />
       </template>
       <BlogHero :itemsPerPage="itemsPerPage" v-slot="{data}" >
-        <h2 class="title-main text-main900 text-start">Tin tức</h2>
+        <h2 class="text-center text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mb-6">Tin tức</h2>
         <BlogCategory/>
         <h4 class="text-xl leading-7 uppercase font-bold">Tin tức nổi bật</h4>
         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 gap-4 md:mt-5 mt-3">

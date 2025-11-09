@@ -7,7 +7,7 @@
     <div class="container">
       <div
         v-html="block.title"
-        class="title-main text-main900 text-start"
+        class="text-center text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mb-6"
       ></div>
       <div v-if="products.length < 1" class="text-center text-[26px] py-[20px] font-bold">
         KHÔNG TÌM THẤY SẢN PHẨM
