@@ -450,7 +450,7 @@ const searchValue = ref('');
 
 const handleSearch = () => {
   router.push({ 
-    path: '/danh-sach-san-pham', 
+    path: '/san-pham', 
     query: { keyword: searchValue.value } 
   });
   window.scrollTo({

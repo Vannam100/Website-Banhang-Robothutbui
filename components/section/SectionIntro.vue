@@ -7,7 +7,7 @@
   >
     <div class="absolute pointer-events-none inset-0 bg-black opacity-40" />
     <div class="relative z-10 md:ml-[150px] ml-0 md:text-left text-center">
-      <div :class="route.path === '/' ? 'mt-0' : 'mt-14'" class="md:text-[44px] text-[28px] leading-9 font-bold md:leading-[70px] lg:mb-4 uppercase w-full" v-html="(route.path === '/san-pham' && isMobile)  || (route.path === '/danh-sach-san-pham' && isMobile) ? 'sản phẩm' : block.title" />
+      <div :class="route.path === '/' ? 'mt-0' : 'mt-14'" class="md:text-[44px] text-[28px] leading-9 font-bold md:leading-[70px] lg:mb-4 uppercase w-full" v-html="(route.path === '/san-pham' && isMobile)  || (route.path === '/san-pham' && isMobile) ? 'sản phẩm' : block.title" />
       <p v-if=" block.sub_title" class="text-xl md:text-xl font-light md:leading-7 leading-6">{{ block.sub_title }}</p>
       <NuxtLink 
         v-if="props.block.button.is_show" 

@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
 
   generate: {
-    routes: ['/danh-sach-san-pham','/gio-hang','/','/lien-he','/san-pham','/thanh-toan','/ve-chung-toi','/blog/','/blog/post1','/blog/category/robot-hút-bụi']
+    routes: ['/gio-hang','/','/lien-he','/san-pham','/thanh-toan','/ve-chung-toi','/blog/','/blog/post1','/blog/category/robot-hút-bụi']
   },
 
   nitro: {

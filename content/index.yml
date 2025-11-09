@@ -14,7 +14,7 @@ content_blocks:
     button_menu:
       is_show: true
       text: Xem thêm
-      url: /danh-sach-san-pham
+      url: /san-pham
       open_new_tab: false
     banner_slides:
       - image: images/banner-we.png

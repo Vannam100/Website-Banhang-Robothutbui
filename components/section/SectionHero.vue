@@ -32,7 +32,7 @@
           class="relative"
         >
           <div class="relative w-full h-full custom_animation">
-            <div class="w-full h-screen">
+            <div class="w-full lg:h-screen">
               <img :src="slide.image" :alt="slide.image_alt" class="w-full"/>
             </div>
           </div>
