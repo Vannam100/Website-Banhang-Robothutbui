@@ -168,7 +168,6 @@
   </section>
 </template>
 <script lang="ts" setup>
-import { API_BASE_URL } from '@/constant/apiConfig';
 import { useCartStore } from '~/stores/cart';
 import { convertVND } from '@/utils';
 
@@ -197,7 +196,6 @@ const handleRemoveItemFromCart = (id:number) => {
 
 const getProductDetail = async (slug:any) => {
   try {
-    await useFetch(`${API_BASE_URL}/product/product/view?slug=${slug}`);
     router.push({ path: `/chi-tiet-san-pham/${slug}` })
   } catch (error) {
     console.error(error);

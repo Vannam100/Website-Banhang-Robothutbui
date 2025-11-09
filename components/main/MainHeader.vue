@@ -327,7 +327,6 @@
 import header from '@/data/header.json';
 import LANGUAGES from '@/data/lang-setting.json';
 import { useCartStore } from '~/stores/cart';
-import { API_BASE_URL } from '@/constant/apiConfig';
 
 const router = useRouter();
 const route = useRoute();
@@ -389,22 +388,6 @@ watch(
   { deep: true }
 );
 // end i18n
-const getCategory = async () => {
-  try {
-    const res: any = await useFetch(
-      `${API_BASE_URL}/product/category?Tenant-ID=test1`, {
-        onRequest({ request, options }) {
-          options.headers = options.headers || {};
-          (options.headers as Record<string, string>).authorization = 'test1';
-          (options.headers as Record<string, string>).language = langCurrent.value;
-        }
-      });
-    listCategory.value = res?.data?._rawValue?.data?.items || [];
-  } catch (error: any) {
-    console.error(error);
-  }
-};
-await getCategory();
 
 const isActivePage = (link: string) => {
   return route.path === link || route.path.startsWith(link + '/');

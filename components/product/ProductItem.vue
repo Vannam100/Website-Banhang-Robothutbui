@@ -52,7 +52,6 @@
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { API_BASE_URL } from '@/constant/apiConfig';
 import { products } from '@/data/products.ts';
 import { category } from '@/data/category.ts';
 
@@ -71,59 +70,6 @@ const listCategory = category;
 const currentPage = ref<{ [key: string]: number }>({}); 
 const totalPages = ref<{ [key: string]: number }>({}); 
 const PER_PAGE = 12; 
-
-// const getCategory = async (tenant_id: string) => {
-//   try {
-//     if (tenant_id) {
-//       const res: any = await useFetch(`${API_BASE_URL}/product/category?Tenant-ID=${tenant_id}`, {
-//         onRequest({ options }) {
-//           options.headers = options.headers || {};
-//           options.headers['authorization'] = props.block.tenant_id;
-//         },
-//       });
-//       listCategory.value = res.data._rawValue.data.items;
-//       fetchAllProducts();
-//     }
-//   } catch (error) {
-//     console.error('Lỗi khi lấy danh mục sản phẩm:', error);
-//   }
-// };
-
-// const fetchAllProducts = async () => {
-//   try {
-//     const promises = listCategory.value.map(async (category: any) => {
-//       const slug = category?.slug;
-//       currentPage.value[slug] = 1; 
-//       const res: any = await fetchProducts(slug, currentPage.value[slug]);
-//       listProduct.value[slug] = res.items || [];
-//       totalPages.value[slug] = res.totalPages || 0;
-//     });
-//     await Promise.all(promises);
-//   } catch (error) {
-//     console.error('Lỗi khi lấy sản phẩm:', error);
-//   }
-// };
-
-// const fetchProducts = async (slug: string, page: number) => {
-//   try {
-//     const res: any = await useFetch(
-//       `${API_BASE_URL}/product?category_slug=${slug}&page=${page}&per-page=${PER_PAGE}`
-//     );
-//     const { items, _meta } = res.data._rawValue.data;
-//     return { items, totalPages: _meta.pageCount };
-//   } catch (error) {
-//     console.error(`Lỗi khi lấy sản phẩm cho danh mục ${slug}:`, error);
-//     return { items: [], totalPages: 0 };
-//   }
-// };
-
-// const handleShowMore = async (slug: string) => {
-//   if (currentPage.value[slug] < totalPages.value[slug]) {
-//     currentPage.value[slug]++;
-//     const res = await fetchProducts(slug, currentPage.value[slug]);
-//     listProduct.value[slug].push(...res.items); 
-//   }
-// };
 
 const filteredCate = () => {
   if (route?.query?.category) {

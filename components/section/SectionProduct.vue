@@ -80,7 +80,6 @@
 </template>
 <script lang="ts" setup>
 import { Autoplay } from 'swiper/modules';
-import { API_BASE_URL } from '@/constant/apiConfig';
 import { products } from '@/data/products.ts';
 
 interface Props {

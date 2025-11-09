@@ -137,7 +137,6 @@
 
 <script lang="ts" setup>
 import InnerImageZoom from 'vue-inner-image-zoom';
-import { API_BASE_URL } from '@/constant/apiConfig';
 import { products } from '@/data/products.ts';
 
 import { useRoute } from 'vue-router';

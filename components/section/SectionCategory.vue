@@ -59,7 +59,6 @@
 <script lang="ts" setup>
 import { Autoplay, Pagination } from 'swiper/modules';
 import { useRouter,useRoute } from "vue-router";
-import { API_BASE_URL } from '@/constant/apiConfig';
 import { category } from '@/data/category.ts';
 
 interface Props {
@@ -90,30 +89,8 @@ const goToSlide = (index: number) => {
   }
 };
 
-// const listCategory = ref<any | null>([])
-// const getCategory =  async (tenant_id: any) => {
-//   try {
-//     if (props.block.tenant_id) {
-//         const res: any = await useFetch(`${API_BASE_URL}/product/category?Tenant-ID=${tenant_id}`);
-//         listCategory.value = res.data._rawValue.data.items;
-//     }
-//   } catch (error: any) {
-//     console.error(error);
-//   }
-// }
-
-// let timeout: any = null;
-// watch(() => props.block.tenant_id, () => {
-//   clearTimeout(timeout)
-//   timeout = setTimeout(() => {
-//     getCategory(props.block.tenant_id);
-//   }, 500)
-// }, { immediate: true });
-
-
 const getProductCategory = async (slug:string) => {
   // try {
-    // await useFetch(`${API_BASE_URL}/product?category_slug=${slug}`);
     router.push({ 
       path: `/san-pham`,
       query: {

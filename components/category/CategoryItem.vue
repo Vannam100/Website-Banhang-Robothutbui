@@ -37,7 +37,6 @@
 
 <script lang="ts" setup>
 import { useRoute } from "vue-router";
-import { API_BASE_URL } from "@/constant/apiConfig";
 
 interface Props {
   dataBinding: any;
@@ -51,37 +50,13 @@ const currentPage = ref(1);
 const totalPages = ref(0);
 const PER_PAGE = 12; 
 
-const fetchProducts = async (page = 1) => {
-  try {
-    const res: any = await useFetch(
-      `${API_BASE_URL}/product?page=${page}&per-page=${PER_PAGE}&keyword=${route.query.keyword || ""}`
-    );
-    const data = res.data._rawValue.data;
-    products.value = [...products.value, ...data.items];
-    totalPages.value = data._meta.pageCount;
-  } catch (error) {
-    console.error("Error fetching products:", error);
-  }
-};
-
 const handleShowMore = () => {
   if (currentPage.value < totalPages.value) {
     currentPage.value++;
-    fetchProducts(currentPage.value);
   }
 };
 
-watch(
-  () => [props.block.tenant_id, route.query.keyword],
-  async ([newTenantId]) => {
-    if (newTenantId) {
-      currentPage.value = 1; 
-      products.value = []; 
-      await fetchProducts();
-    }
-  },
-  { immediate: true }
-);
+
 </script>
 
 <style lang="scss" scoped>

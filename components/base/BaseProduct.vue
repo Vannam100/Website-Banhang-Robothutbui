@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { useCartStore } from '~/stores/cart';
-import { API_BASE_URL } from '@/constant/apiConfig';
 
 interface Props {
   product: any;
@@ -11,7 +10,6 @@ const toast = useToast();
 const router = useRouter();
 const getProductDetail = async (slug:any) => {
   try {
-    // await useFetch(`${API_BASE_URL}/product/product/view?slug=${slug}`);
     router.push({ path: `/chi-tiet-san-pham/${slug}` })
   } catch (error) {
     console.error(error);

@@ -108,7 +108,6 @@
 </template>
 <script setup lang="ts">
 import { useCartStore } from '~/stores/cart';
-import { API_BASE_URL } from '@/constant/apiConfig';
 
 interface Props {
   headerData: any;
@@ -163,18 +162,6 @@ watch(
   },
   { deep: true }
 );
-const getProductDetail = async (slug:string) => {
-  try {
-    await useFetch(`${API_BASE_URL}/product/product/view?slug=${slug}`);
-    router.push({ 
-      path: `/detail`,
-      query: {
-        slug : slug
-      }
-    })
-  } catch (error) {
-    console.error(error);
-  }
-}
+
 </script>
 <style lang="scss" scoped></style>
