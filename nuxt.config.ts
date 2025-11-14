@@ -5,15 +5,15 @@ export default defineNuxtConfig({
   },
 
   imports: {
-    dirs: ['stores']
+    dirs: ['stores', '~/plugin']
   },
 
   generate: {
-    routes: ['/gio-hang','/','/lien-he','/san-pham','/thanh-toan','/ve-chung-toi','/blog/','/blog/post1','/blog/category/robot-hút-bụi']
+    routes: ['/gio-hang','/','/lien-he','/san-pham','/thanh-toan','/ve-chung-toi','/blog/','/blog/post1','/blog/category/robot-hut-bui']
   },
 
   nitro: {
-    prerender: {
+prerender: {
       crawlLinks: false,
       failOnError: false,
       routes: ['/sitemap.xml'],
